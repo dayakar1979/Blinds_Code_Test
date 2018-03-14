@@ -1,0 +1,14 @@
+C:\Blinds_Test\ElectronicRatingCalculator\TestProject\bin\Debug\TestProject.dll
+C:\Blinds_Test\ElectronicRatingCalculator\TestProject\bin\Debug\TestProject.pdb
+C:\Blinds_Test\ElectronicRatingCalculator\TestProject\bin\Debug\ElectronicRatingCalculatorLibrary.dll
+C:\Blinds_Test\ElectronicRatingCalculator\TestProject\bin\Debug\ElectronicRatingCalculatorLibrary.pdb
+C:\Blinds_Test\ElectronicRatingCalculator\TestProject\obj\Debug\ElectronicRatingCalculatorComponent.Tests.csprojResolveAssemblyReference.cache
+C:\Blinds_Test\ElectronicRatingCalculator\TestProject\obj\Debug\TestProject.dll
+C:\Blinds_Test\ElectronicRatingCalculator\TestProject\obj\Debug\TestProject.pdb
+C:\Blinds_Test\ElectronicRatingCalculator\ElectronicRatingCalculatorComponent.Tests\obj\Debug\ElectronicRatingCalculatorComponent.Tests.csprojResolveAssemblyReference.cache
+C:\Blinds_Test\ElectronicRatingCalculator\ElectronicRatingCalculatorComponent.Tests\bin\Debug\TestProject.dll
+C:\Blinds_Test\ElectronicRatingCalculator\ElectronicRatingCalculatorComponent.Tests\bin\Debug\TestProject.pdb
+C:\Blinds_Test\ElectronicRatingCalculator\ElectronicRatingCalculatorComponent.Tests\bin\Debug\ElectronicRatingCalculatorComponent.dll
+C:\Blinds_Test\ElectronicRatingCalculator\ElectronicRatingCalculatorComponent.Tests\bin\Debug\ElectronicRatingCalculatorComponent.pdb
+C:\Blinds_Test\ElectronicRatingCalculator\ElectronicRatingCalculatorComponent.Tests\obj\Debug\TestProject.dll
+C:\Blinds_Test\ElectronicRatingCalculator\ElectronicRatingCalculatorComponent.Tests\obj\Debug\TestProject.pdb
