@@ -1,0 +1,42 @@
+﻿@model ResistorCalculator.Models.Color
+<html>
+<head>
+    <title>Resistor Calculator</title>
+    <script src="~/Scripts/jquery-3.0.0.min.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js" type="text/javascript"></script>
+    <script src="~/Scripts/jquery.unobtrusive-ajax.js" type="text/javascript"></script>
+   
+  
+</head>
+<body style="background-color: #ADD8E6">
+    <div class="container mt-4">
+        <h3 class="text-center mt-4">Resistor Calculator</h3>
+        @using (Ajax.BeginForm("GetOhm", "Home",
+                            new AjaxOptions { HttpMethod = "post", InsertionMode = InsertionMode.Replace, UpdateTargetId = "divResults" }))
+        {
+
+
+            <div class="row mt-4">
+                <div class="col-sm-3">Band A:    @Html.DropDownListFor(m => m.selectedColorA, Model.colors, new { @id = "bandAColor" })</div>
+               
+                <div class="col-sm-3">Band B:    @Html.DropDownListFor(m => m.selectedColorB, Model.colors, new { @id = "bandBColor" })</div>
+                <div class="col-sm-3">Band C:    @Html.DropDownListFor(m => m.selectedColorC, Model.colors, new { @id = "bandCColor" })</div>
+                <div class="col-sm-3">Band D:    @Html.DropDownListFor(m => m.selectedColorD, Model.colors, new { @id = "bandDColor" })</div>
+            </div>
+            <div class="row mt-4" align="center">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-3"></div>
+                <div class="col-sm-3"><button id="btnSubmit">Calculate Resistor</button></div> 
+                <div class="col-sm-3"></div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-3"></div>
+                <div class="col-sm-3" style="border: 1px solid" align="center" id="divResults"></div>
+                <div class="col-sm-3"></div>
+                
+            </div>
+        }
+    </div>
+</body>
+</html>
